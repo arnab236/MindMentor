@@ -64,11 +64,6 @@ export const Header: React.FC<HeaderProps> = ({
           <div>
             <div className="flex items-center gap-2">
               <span className="text-lg font-bold tracking-tight">MindMentor</span>
-              <span className={`text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded ${
-                darkMode ? 'bg-brand-900/40 text-brand-300 border border-brand-800' : 'bg-brand-50 text-brand-700 border border-brand-100'
-              }`}>
-                AI Studio
-              </span>
             </div>
           </div>
         </div>
