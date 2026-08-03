@@ -11,4 +11,4 @@ export default function handler(req, res) {
     environment: 'vercel',
     timestamp: new Date().toISOString()
   });
-}find api -maxdepth 1 -type f -print
+}
